@@ -1,4 +1,6 @@
 DEPENDENCIES
+  application-zanox
+    path: ../application-zanox
   elasticsearch
     path: ../elasticsearch
   elk-lhr1
@@ -12,12 +14,14 @@ DEPENDENCIES
     path: ../logstash-zanox
 
 GRAPH
+  application-zanox (0.1.0)
+    logstash-zanox (>= 0.0.0)
   elasticsearch (0.1.0)
   elk-lhr1 (0.1.0)
     elasticsearch (>= 0.0.0)
     java-zanox (>= 0.0.0)
     logstash (>= 0.0.0)
   java-zanox (0.1.0)
-    logstash-zanox (>= 0.0.0)
+    application-zanox (>= 0.0.0)
   logstash (0.1.0)
   logstash-zanox (0.1.0)
