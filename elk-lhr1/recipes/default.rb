@@ -6,3 +6,4 @@
 
 include_recipe "elasticsearch"
 include_recipe "logstash"
+include_recipe "java-zanox"
