@@ -1,0 +1,19 @@
+---
+driver:
+  name: docker
+  use_sudo: false
+
+provisioner:
+  name: chef_zero
+
+platforms:
+- name: debian-7_8
+  driver_config:
+    provider: docker
+    image: zanox/kitchen-debian-7.9:chef12-5-1
+    platform: debian
+
+suites:
+  - name: default
+    run_list:
+      - recipe[elk-lhr1]

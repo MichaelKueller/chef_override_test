@@ -1,0 +1,3 @@
+I, [2016-10-20T09:51:03.299552 #30599]  INFO -- Kitchen: -----> Starting Kitchen (v1.13.2)
+I, [2016-10-20T09:51:03.639973 #30599]  INFO -- Kitchen: -----> Converging <default-debian-7-8>...
+I, [2016-10-20T09:51:07.231787 #30599]  INFO -- Kitchen: -----> Kitchen is finished. (0m3.93s)

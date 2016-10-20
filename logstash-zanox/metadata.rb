@@ -1,0 +1,7 @@
+name 'logstash-zanox'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures logstash-zanox'
+long_description 'Installs/Configures logstash-zanox'
+version '0.1.0'

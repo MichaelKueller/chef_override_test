@@ -1,0 +1,26 @@
+I, [2016-10-20T09:51:03.640030 #30599]  INFO -- default-debian-7-8: -----> Converging <default-debian-7-8>...
+I, [2016-10-20T09:51:03.640727 #30599]  INFO -- default-debian-7-8: Preparing files for transfer
+I, [2016-10-20T09:51:03.640831 #30599]  INFO -- default-debian-7-8: Preparing dna.json
+I, [2016-10-20T09:51:03.641045 #30599]  INFO -- default-debian-7-8: Resolving cookbook dependencies with Berkshelf 5.1.0...
+I, [2016-10-20T09:51:03.706002 #30599]  INFO -- default-debian-7-8: Removing non-cookbook files before transfer
+I, [2016-10-20T09:51:03.707230 #30599]  INFO -- default-debian-7-8: Preparing validation.pem
+I, [2016-10-20T09:51:03.707434 #30599]  INFO -- default-debian-7-8: Preparing client.rb
+I, [2016-10-20T09:51:03.767565 #30599]  INFO -- default-debian-7-8: -----> Chef Omnibus installation detected (install only if missing)
+I, [2016-10-20T09:51:03.775611 #30599]  INFO -- default-debian-7-8: Transferring files to <default-debian-7-8>
+I, [2016-10-20T09:51:05.211320 #30599]  INFO -- default-debian-7-8: Starting Chef Client, version 12.5.1
+I, [2016-10-20T09:51:05.976591 #30599]  INFO -- default-debian-7-8: resolving cookbooks for run list: ["elk-lhr1"]
+I, [2016-10-20T09:51:06.042452 #30599]  INFO -- default-debian-7-8: Synchronizing Cookbooks:
+I, [2016-10-20T09:51:06.044420 #30599]  INFO -- default-debian-7-8:   - elasticsearch (0.1.0)
+I, [2016-10-20T09:51:06.046046 #30599]  INFO -- default-debian-7-8:   - elk-lhr1 (0.1.0)
+I, [2016-10-20T09:51:06.046278 #30599]  INFO -- default-debian-7-8:   - logstash (0.1.0)
+I, [2016-10-20T09:51:06.046447 #30599]  INFO -- default-debian-7-8:   - java-zanox (0.1.0)
+I, [2016-10-20T09:51:06.046570 #30599]  INFO -- default-debian-7-8: Compiling Cookbooks...
+I, [2016-10-20T09:51:06.048307 #30599]  INFO -- default-debian-7-8: Converging 1 resources
+I, [2016-10-20T09:51:06.048632 #30599]  INFO -- default-debian-7-8: Recipe: elasticsearch::default
+I, [2016-10-20T09:51:06.063370 #30599]  INFO -- default-debian-7-8:   * execute[echo 24g > /tmp/memory.txt] action run
+I, [2016-10-20T09:51:06.063554 #30599]  INFO -- default-debian-7-8:     - execute echo 24g > /tmp/memory.txt
+I, [2016-10-20T09:51:06.083675 #30599]  INFO -- default-debian-7-8: 
+I, [2016-10-20T09:51:06.083745 #30599]  INFO -- default-debian-7-8: Running handlers:
+I, [2016-10-20T09:51:06.083976 #30599]  INFO -- default-debian-7-8: Running handlers complete
+I, [2016-10-20T09:51:06.084145 #30599]  INFO -- default-debian-7-8: Chef Client finished, 1/1 resources updated in 00 seconds
+I, [2016-10-20T09:51:07.231400 #30599]  INFO -- default-debian-7-8: Finished converging <default-debian-7-8> (0m3.59s).

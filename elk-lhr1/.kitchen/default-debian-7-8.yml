@@ -1,0 +1,8 @@
+---
+username: kitchen
+ssh_key: "/home/michaelkueller/workspace/override_test/elk-lhr1/.kitchen/docker_id_rsa"
+image_id: 05160b561d50
+container_id: b47dcf0fde866d3252b4bf5fd8649b53f9e0c46d0fbd502935cb527d1d49883b
+hostname: localhost
+port: 32784
+last_action: converge

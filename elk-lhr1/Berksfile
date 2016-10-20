@@ -1,0 +1,9 @@
+source 'https://supermarket.chef.io'
+
+cookbook 'elasticsearch', path: '../elasticsearch'
+cookbook 'logstash', path: '../logstash'
+cookbook 'logstash-zanox', path: '../logstash-zanox'
+cookbook 'java-zanox', path: '../java-zanox'
+
+
+metadata

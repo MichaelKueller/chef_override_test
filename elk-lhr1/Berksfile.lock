@@ -1,0 +1,23 @@
+DEPENDENCIES
+  elasticsearch
+    path: ../elasticsearch
+  elk-lhr1
+    path: .
+    metadata: true
+  java-zanox
+    path: ../java-zanox
+  logstash
+    path: ../logstash
+  logstash-zanox
+    path: ../logstash-zanox
+
+GRAPH
+  elasticsearch (0.1.0)
+  elk-lhr1 (0.1.0)
+    elasticsearch (>= 0.0.0)
+    logstash (>= 0.0.0)
+  java-zanox (0.1.0)
+    logstash-zanox (>= 0.0.0)
+  logstash (0.1.0)
+    java-zanox (>= 0.0.0)
+  logstash-zanox (0.1.0)
